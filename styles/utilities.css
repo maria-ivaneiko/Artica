@@ -1,0 +1,34 @@
+/* Utilities */
+.text-center { text-align: center; }
+.divider {
+  position: relative;
+  display: block;
+  max-width: 570px;
+  margin: 0 auto 23px;
+}
+.divider::before,
+.divider::after {
+  content: '';
+  position: absolute;
+  width: calc(50% - 10px);
+  height: 2px;
+  top: 50%;
+  margin-top: -1px;
+  background-color: white;
+}
+.divider::before {
+  left: 0;
+}
+.divider::after {
+  right: 0;
+}
+.divider-circle {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
+  border-radius: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Artica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zapotichna/Artica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zapotichna/Artica/issues"
+  },
+  "homepage": "https://github.com/Zapotichna/Artica#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "normalize.css": "^8.0.1",
+    "postcss-modules": "^2.0.0"
+  },
+  "devDependencies": {}
+}

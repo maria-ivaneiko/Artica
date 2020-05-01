@@ -1,0 +1,22 @@
+/* Buttons */
+.button {
+  /* Reset */
+  background-image: none;
+  background-color: transparent;
+
+  /* Styles */
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 22px 32px;
+  text-transform: capitalize;
+}
+
+.button-outline-white {
+  border: 1px solid white;
+  color: white;
+}
+.button-outline-white:hover {
+  background-color: white;
+  color: var(--primary);
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@import '../node_modules/normalize.css/normalize.css';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #3d506f;
+  --primaryDarken: #161f32;
+  --primaryLighten: #7f90a5;
+  --dark: #172234;
+  --info: #00c7fc;
+}
+
+/* Custom */
+@import './utilities.css';
+@import './buttons.css';
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+/* Main */
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+.header {
+  background-color: white;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+.header-logo {
+
+}
+
+/* Sections */
+.section-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 700px;
+
+  background-color: var(--primary);
+}
+
+/* Card */
+.card-hero {
+  width: 100%;
+  position: relative;
+  padding-top: 43px;
+  padding-bottom: 69px;
+  text-align: center;
+}
+.card-hero::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primaryDarken);
+  opacity: 0.8;
+  z-index: 1;
+}
+.card-hero .card-content {
+  position: relative;
+  z-index: 2;
+}
+.card-hero .card-image {
+  margin-bottom: 40px;
+}
+.card-hero .card-description {
+  display: block;
+  max-width: 722px;
+  color: white;
+  margin: 0 auto 23px;
+}
