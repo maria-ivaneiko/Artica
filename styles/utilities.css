@@ -6,6 +6,13 @@
   max-width: 570px;
   margin: 0 auto 23px;
 }
+.divider.divider-inverse::before,
+.divider.divider-inverse::after {
+  background-color: var(--primaryLighten);
+}
+.divider-inverse .divider-circle {
+  border-color: var(--primaryLighten);
+}
 .divider::before,
 .divider::after {
   content: '';

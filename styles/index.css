@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 @import '../node_modules/normalize.css/normalize.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -12,11 +13,18 @@
   --primaryLighten: #7f90a5;
   --dark: #172234;
   --info: #00c7fc;
+
+  --gray-100: #ededed;
 }
 
 /* Custom */
 @import './utilities.css';
+/* Layout */
+@import './sections.css';
+@import './grid.css';
+/* Component */
 @import './buttons.css';
+@import './cards.css';
 
 body {
   font-family: 'Lato', sans-serif;

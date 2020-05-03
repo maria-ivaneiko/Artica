@@ -3,6 +3,7 @@
   /* Reset */
   background-image: none;
   background-color: transparent;
+  border: 0;
 
   /* Styles */
   cursor: pointer;
@@ -12,6 +13,22 @@
   text-transform: capitalize;
 }
 
+.button-icon {
+  padding: 0;
+  border: 0;
+
+  width: 58px;
+  height: 58px;
+
+  border-radius: 50%;
+
+  color: var(--primaryDarken);
+  font-size: 23px;
+}
+.button-icon:hover {
+  background-color: var(--gray-100);
+}
+
 .button-outline-white {
   border: 1px solid white;
   color: white;
@@ -19,4 +36,13 @@
 .button-outline-white:hover {
   background-color: white;
   color: var(--primary);
+}
+
+.button-primary {
+  background-color: var(--primaryDarken);
+  color: white;
+}
+.button-primary:hover {
+  color: var(--primaryDarken);
+  background-color: var(--gray-100);
 }
