@@ -3,7 +3,7 @@
 .divider {
   position: relative;
   display: block;
-  max-width: 570px;
+  max-width: 600px;
   margin: 0 auto 23px;
 }
 .divider.divider-inverse::before,
@@ -17,7 +17,7 @@
 .divider::after {
   content: '';
   position: absolute;
-  width: calc(50% - 10px);
+  width: calc(50% - 25px);
   height: 2px;
   top: 50%;
   margin-top: -1px;
@@ -25,9 +25,11 @@
 }
 .divider::before {
   left: 0;
+  margin-left: 15px;
 }
 .divider::after {
   right: 0;
+  margin-right: 15px;
 }
 .divider-circle {
   display: block;
