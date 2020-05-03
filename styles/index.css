@@ -25,6 +25,7 @@
 /* Component */
 @import './buttons.css';
 @import './cards.css';
+@import './switcher.css';
 
 body {
   font-family: 'Lato', sans-serif;

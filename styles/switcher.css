@@ -1,0 +1,30 @@
+/* Components: Switcher */
+
+.switcher {
+  display: flex;
+  justify-content: center;
+}
+.switcher-button {
+  /* Reset */
+  background-image: none;
+  border: 0;
+
+  background-color: var(--primary);
+
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.switcher-button + .switcher-button {
+  margin-left: 20px;
+}
+.switcher-button:hover {
+  background-color: var(--primaryDarken);
+}
+.switcher-button.active {
+  background-color: var(--info);
+}
