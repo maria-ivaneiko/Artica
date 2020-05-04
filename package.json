@@ -19,9 +19,10 @@
   "homepage": "https://github.com/Zapotichna/Artica#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
-    "autoprefixer": "^9.7.6",
     "normalize.css": "^8.0.1",
     "postcss-modules": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "autoprefixer": "^9.7.6"
+  }
 }

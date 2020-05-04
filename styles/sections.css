@@ -50,3 +50,23 @@
   padding-top: 65px;
   padding-bottom: 65px;
 }
+/* Quote */
+.section-quote{
+  background-color: var(--primaryDarken);
+  text-align: center;
+}
+.quote-description{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 783px;
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 27px;
+}
+.quote-author{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+}
