@@ -70,3 +70,13 @@
   font-weight: 400;
   line-height: 27px;
 }
+/* Testimonials */
+.section-testimonials{
+  text-align: center;
+}
+.testimonials-author{
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
