@@ -26,6 +26,7 @@
 @import './buttons.css';
 @import './cards.css';
 @import './switcher.css';
+@import './box.css';
 
 body {
   font-family: 'Lato', sans-serif;

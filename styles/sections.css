@@ -74,6 +74,9 @@
 .section-customer{
   background-color: var(--primaryDarken);
 }
+.section-body{
+  text-align: center;
+}
 .customer-title,
 .customer-description{
   color: white;
@@ -90,4 +93,12 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
+}
+/* Contact Us */
+.section-contact-us{
+  background-color: var(--primaryDarken);
+}
+/* Info */
+.section-info{
+  background-color: var(--primaryDarken);
 }

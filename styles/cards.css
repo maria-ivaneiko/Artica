@@ -46,3 +46,47 @@
   margin-bottom: 15px;
   text-align: center;
 }
+/* Contact Us */
+.card-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 55px;
+}
+.card-contact,
+.contact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-icon{
+  margin-bottom: 29px;
+  width: 70px;
+  height: 70px;
+
+  background-color: white;
+  border-radius: 50%;
+  color: var(--primary);
+
+  font-size: 26px;
+}
+.contact-head h3,
+.contact-head h6,
+.contact-head p,
+.contact-title,
+.contact-value{
+  color: white;
+}
+.contact-title{
+  margin-bottom: 21px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.contact-value{
+  margin-bottom: 57px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}

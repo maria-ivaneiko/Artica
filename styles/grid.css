@@ -19,8 +19,14 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-.col-6{
-  flex-basis: 16%;
+.col-16{
+  flex-basis: 16.66%;
+}
+.col-25{
+  flex-basis: 25%;
+}
+.col-33{
+  flex-basis: 33%;
 }
 
 @media screen and (min-width: 768px){
