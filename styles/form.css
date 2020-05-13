@@ -1,0 +1,11 @@
+/* Contact Us */
+.form-control{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 27px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
