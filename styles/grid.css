@@ -26,7 +26,7 @@
   flex-basis: 25%;
 }
 .col-33{
-  flex-basis: 33%;
+  flex-basis: 33.33%;
 }
 
 @media screen and (min-width: 768px){
