@@ -74,7 +74,12 @@
 .contact-head h6,
 .contact-head p,
 .contact-title,
-.contact-value{
+.contact-value,
+.about-us-head h3,
+.about-us-head h6,
+.about-us-head p,
+.card-about-us h5,
+.card-about-us span{
   color: white;
 }
 .contact-title{
@@ -88,5 +93,25 @@
   margin-bottom: 57px;
   font-size: 20px;
   font-weight: 400;
+  line-height: 27px;
+}
+/* About Us */
+.card-about-us{
+  margin-top: 88px;
+}
+.card-about-us img{
+  margin-bottom: 29px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card-about-us h5{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.card-about-us span{
+  font-size: 15px;
+  font-weight: 300;
   line-height: 27px;
 }

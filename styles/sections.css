@@ -42,9 +42,6 @@
     max-width: 758px;
     font-size: 15px;
   }
-.section-body {}
-
-
 /* Template */
 .section-template .section-body {
   padding-top: 65px;
@@ -71,6 +68,9 @@
   font-size: 15px;
   font-weight: 400;
 }
+/* Subscribe */
+.subscribe-control{
+}
 /* Customer */
 .section-customer{
   background-color: var(--primaryDarken);
@@ -94,6 +94,10 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
+}
+/* About Us */
+.section-about-us{
+  background-color: var(--primaryDarken);
 }
 /* Contact Us */
 .section-contact-us{
