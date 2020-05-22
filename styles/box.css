@@ -23,3 +23,29 @@
 .box-label{
     font-size: 15px;
 }
+/* Skils */
+.box-company h5,
+.box-skill h5{
+    margin-bottom: 20px;
+    padding-left: 13px;
+    color: var(--primary);
+    font-size: 25px;
+}
+.box-company h5,
+.box-skill h5,
+.box-description{
+    text-align: left;
+}
+.box-company p{
+    margin-bottom: 20px;
+}
+.box-company button{
+    display: inline-block;
+    float: left;
+    margin-left: 13px;
+    background-color: var(--primary);
+}
+.box-skill h5{
+    margin-bottom: 25px;
+    padding-left: 0px;
+}

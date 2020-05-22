@@ -28,6 +28,7 @@
 @import './switcher.css';
 @import './box.css';
 @import './form.css';
+@import './progress.css';
 
 body {
   font-family: 'Lato', sans-serif;

@@ -107,3 +107,7 @@
 .section-info{
   background-color: var(--primaryDarken);
 }
+/* Skill */
+.section-skills p{
+  margin-bottom: 65px;
+}
