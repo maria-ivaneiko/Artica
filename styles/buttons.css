@@ -54,3 +54,7 @@
   color: var(--primary);
   background-color: white;
 }
+/* Subscribe */
+.button-control{
+  background-color: var(--primary);
+}
